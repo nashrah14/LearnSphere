@@ -2,12 +2,11 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # allow React/frontend to call this API
+CORS(app)
 
 
 @app.route("/")
 def index():
-    # Quick check route
     return "Flask is running ✅"
 
 
@@ -17,6 +16,4 @@ def hello():
 
 
 if __name__ == "__main__":
-    # debug=True restarts automatically on code change
     app.run(debug=True)
-
