@@ -12,7 +12,7 @@ export default function Home() {
   // Called when user clicks "Re-check API"
   const handleRecheck = () => {
     setLoading(true);
-    fetch("http://127.0.0.1:5000/api/hello")
+    fetch(`${API_BASE_URL}/api/hello`)
       .then((res) => res.json())
       .then((data) => {
         setIsOnline(true);
