@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:5000";
+
 
 export default function Home() {
   const [message, setMessage] = useState("Checking backend status...");
@@ -30,7 +32,7 @@ export default function Home() {
   useEffect(() => {
     let isMounted = true;
 
-    fetch("http://127.0.0.1:5000/api/hello")
+    fetch(`${API_BASE_URL}/api/hello`)
       .then((res) => res.json())
       .then((data) => {
         if (!isMounted) return;
