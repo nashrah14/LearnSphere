@@ -1,4 +1,4 @@
-# 🎓 LearnSphere – Full-Stack Learning Platform
+# 🎓 LearnSphere - Full-Stack Learning Platform
 
 LearnSphere is a modern **full-stack web application** designed to provide a centralized platform for online learning. It enables users to explore educational content, manage learning resources, and interact with a clean, responsive interface. The project focuses on **scalability, real-world architecture, and modern web technologies**.
 
@@ -31,10 +31,7 @@ LearnSphere is a modern **full-stack web application** designed to provide a cen
 ### Backend
 - Node.js  
 - Express.js  
-- RESTful APIs  
-
-### Database
-- MongoDB *(update if different)*  
+- RESTful APIs   
 
 ### Deployment
 - Vercel (Frontend)  
