@@ -3,7 +3,7 @@
 LearnSphere is a modern **full-stack web application** designed to provide a centralized platform for online learning. It enables users to explore educational content, manage learning resources, and interact with a clean, responsive interface. The project focuses on **scalability, real-world architecture, and modern web technologies**.
 
 🔗 **Live Demo:**  
-👉 https://learn-sphere-mj8y-kzhumvtpb-nashrah-fathimas-projects.vercel.app/
+👉 https://learnsphere-bay.vercel.app/
 
 ---
 
